@@ -1,0 +1,136 @@
+/* Styles for mobile devices */
+
+@media screen and (max-width: 992px) {
+
+    /*************/
+    /* Section 2 */
+    #section-two {
+        background-size: auto;
+        background-repeat: repeat;
+    }
+}
+
+@media screen and (max-width: 855px) {
+
+    /**********/
+    /* Footer */
+    .footer-contact, .footer-copyright {
+        text-align: center;
+        float: inherit;
+    }
+
+    .footer-copyright {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+
+    /**************/
+    /* Top NavBar */
+    .navbar-nav>li>a {
+        padding-bottom: 3px;
+        padding-top: 3px;
+    }
+
+    button.navbar-toggle {
+        margin-right: 30px;
+    }
+
+
+    /*************/
+    /* Section 1 */
+    .container-section-one {
+        padding-top: 85px;
+        padding-bottom: 85px;
+    }
+    
+
+    /*************/
+    /* Section 2 */
+    .section-two-text {
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+
+    .sec-two-img {
+        margin-bottom: 5px;
+        margin-top: 20px;
+    }
+
+    .sec-two-last-img-one {
+        margin-bottom: 0;
+    }
+
+
+    /*************/
+    /* Section 3 */
+    .section-three-text {
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+
+    .sec-three-img-one-1 {
+        margin-top: 0;
+    }
+
+    .sec-three-img-one-2,
+    .sec-three-last-img-one,
+    .sec-three-img-two-1,
+    .sec-three-img-two-2,
+    .sec-three-last-img-two {
+        margin-top: 50px;
+    }
+
+    .sec-three-last-img-one {
+        margin-bottom: 0;
+    }
+
+    
+    /*************/
+    /* Section 4 */
+    .section-four-main-title {
+        margin-top: 60px;
+    }
+
+    .container-section-four {
+        margin-bottom: 60px;
+    }
+
+    .navbar-form {        
+        padding: 5px !important;
+    }
+
+    .add-on {
+        text-align: center;
+        display: inherit;
+    }
+
+    .email-input {
+        width: 100% !important;
+    }
+
+    .btn-email {
+        width: 100% !important;
+
+        margin-top: 5px;        
+
+        border-radius: 6px !important;
+    }
+
+
+    /**********/
+    /* Footer */
+    .container-footer {
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    /**********/
+    /* Footer */
+    .email-address, .copyright {
+        font-size: 5vw;
+    }
+}
