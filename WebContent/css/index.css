@@ -189,6 +189,10 @@ button.navbar-toggle:focus {
     text-shadow: 0px 2px 4px rgba(0,0,0,0.6);
 
     padding-bottom: 50px;
+
+    max-width: 75%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .section-one-bt {
@@ -276,6 +280,36 @@ button.navbar-toggle:focus {
     text-align: center;
 }
 
+.text-mock1 {
+    max-width: 75%;
+}
+
+.text-mock2 {
+    max-width: 85%;
+}
+
+.text-mock3 {
+    max-width: 90%;
+}
+
+.text-mock4 {
+    max-width: 92%;
+}
+
+.text-mock5 {
+    max-width: 85%;
+}
+
+.text-mock6 {
+    max-width: 95%;
+}
+
+.text-mock1, .text-mock2, .text-mock3,
+.text-mock4, .text-mock5, .text-mock6 {
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .sec-two-img {
     max-width: 100%;
     height: auto;
@@ -346,6 +380,36 @@ button.navbar-toggle:focus {
     margin-bottom: 0;
 }
 
+.text-ic1 {
+    max-width: 71%;
+}
+
+.text-ic2 {
+    max-width: 80%;
+}
+
+.text-ic3 {
+    max-width: 80%;
+}
+
+.text-ic4 {
+    max-width: 84%;
+}
+
+.text-ic5 {
+    max-width: 65%;
+}
+
+.text-ic6 {
+    max-width: 78%;
+}
+
+.text-ic1, .text-ic2, .text-ic3,
+.text-ic4, .text-ic5, .text-ic6 {
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .sec-three-last-img-one {
     margin-bottom: 66px;
 }
@@ -387,6 +451,9 @@ button.navbar-toggle:focus {
 
     margin-top: 158px;
     margin-bottom: 30px;
+
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .container-section-four {
@@ -394,9 +461,6 @@ button.navbar-toggle:focus {
 }
 
 .navbar-form {
-    padding-left: 10px;
-    padding-right: 60px;
-
     border-top: none;
     border-bottom: none;
 
