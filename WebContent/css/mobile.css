@@ -76,10 +76,6 @@
         margin-top: 60px;
     }
 
-    .container-section-four {
-        margin-bottom: 60px;
-    }
-
     .input-group-btn {
         width: 1% !important;
     }    
@@ -144,7 +140,7 @@
     /**********/
     /* Footer */
     .container-footer {
-        padding-top: 0;
+        padding-top: 47px;
     }
 }
 
@@ -152,7 +148,11 @@
 
     /**********/
     /* Footer */
-    .email-address, .copyright {
+    .email-address {
         font-size: 5vw;
+    }
+
+    .copyright {
+        font-size: 3.5vw;
     }
 }

@@ -571,12 +571,16 @@ button.navbar-toggle:focus {
 
 .email-address, .copyright {
     font-family: cent-got;
-    font-size: 22px;
     color: rgb(134, 133, 133);
+}
+
+.email-address {
+    font-size: 22px;
 }
 
 .copyright {
     padding-right: 15px;
+    font-size: 15px;
 }
 
 .email-icon {
