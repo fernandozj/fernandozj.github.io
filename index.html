@@ -278,6 +278,9 @@
                 url: url,
                 data: JSON.stringify(data),
                 dataType: 'json',
+                beforeSend: function(xhr) {
+                  xhr.setRequestHeader( "Content-type", "application/json" );
+                },
                 success: function(data) {
                     document.getElementById("newsletter-text").innerHTML = "Obrigado por nos deixar seu e-mail! Em breve te enviaremos mais novidades sobre o Agronus e como ele pode te ajudar a melhorar a performance da sua fazenda!";
 
