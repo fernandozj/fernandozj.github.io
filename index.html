@@ -263,7 +263,7 @@
     <script type="text/javascript">
 
         // this is the id of the form
-        $('#email_form').submit(function() {
+        $('#email_form').click(function() {
             
             document.getElementById("btn-email").innerHTML = "Enviando E-mail...";
 
@@ -272,8 +272,12 @@
             var data = {
                 "email": document.getElementById("email").value
             }
+            
+            $.post($(this).attr("email"), $(this).serialize(), function(jsonData){
+              console.log(jsonData);
+            }, "json");
 
-            $.ajax({
+            $.post({
                 contentType: 'application/json',
                 type: "POST",
                 url: url,
