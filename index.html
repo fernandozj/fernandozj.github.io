@@ -273,7 +273,7 @@
                 "email": document.getElementById("email").value
             }
 
-            $.post({
+            $.ajax({
                 type: "POST",
                 url: url,
                 data: JSON.stringify(data),
