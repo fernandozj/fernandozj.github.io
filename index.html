@@ -274,6 +274,7 @@
             }
 
             $.ajax({
+                contentType: 'application/json',
                 type: "POST",
                 url: url,
                 data: JSON.stringify(data),
