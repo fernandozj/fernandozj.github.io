@@ -269,14 +269,15 @@
 
             var url = "https://api.agronus.com.br/newsletter/subscribe"; // the script where you handle the form input.
 
-            var data =  {
+            var data = {
                 "email": document.getElementById("email").value
             }
 
             $.ajax({
                 type: "POST",
                 url: url,
-                data: data,
+                data: JSON.stringify(data),
+                dataType: 'json',
                 success: function(data) {
                     document.getElementById("newsletter-text").innerHTML = "Obrigado por nos deixar seu e-mail! Em breve te enviaremos mais novidades sobre o Agronus e como ele pode te ajudar a melhorar a performance da sua fazenda!";
 
