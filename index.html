@@ -286,7 +286,13 @@
                     $('#btn-email').hide();
                 },
                 error: function(resp, exception) {
-                    alert("Erro ao cadastrar email. Por favor, tente novamente!");
+                    if(resp.status == 409) {
+                        alert("Email já cadastrado.");
+                    }
+                    else {
+                        alert("Erro ao cadastrar email. Por favor, tente novamente!");
+                    }
+                    
                     document.getElementById("btn-email").innerHTML = "Mantenha-me informado";
                 }
             });
