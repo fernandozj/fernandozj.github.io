@@ -450,10 +450,19 @@ button.navbar-toggle:focus {
     color: rgb(255, 255, 255);
 
     margin-top: 158px;
-    margin-bottom: 30px;
 
     margin-right: auto;
     margin-left: auto;
+}
+
+.section-four-download-img-container {
+    text-align: -webkit-center;
+    margin-bottom: 60px;
+}
+
+.section-four-download-img {
+    width: 100%;
+    max-width: 400px;
 }
 
 .container-section-four {
