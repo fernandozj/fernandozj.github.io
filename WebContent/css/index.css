@@ -182,7 +182,7 @@ button.navbar-toggle:focus {
 
 .section-one-main-title {
     font-size: 42px;
-    font-family: "Arial Bold";
+    font-family: open-sans-b;
     color: rgb(255, 255, 255);
     text-align: center;
 
@@ -200,7 +200,7 @@ button.navbar-toggle:focus {
 }
 
 .sec-one-bt {
-    font-family: "Arial Bold";
+    font-family: open-sans-b;
     font-size: 30px;
     text-align: center;   
     text-decoration: none;
